@@ -1,6 +1,6 @@
 // src/stories/CardView.stories.ts
 import type { Meta, StoryObj } from "@storybook/react";
-import { CardView } from "../components/CardView";
+import { CardView } from "@/components/CardView";
 
 const meta: Meta<typeof CardView> = {
   title: "Components/CardView",
