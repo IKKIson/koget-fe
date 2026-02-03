@@ -154,7 +154,7 @@ export const CardView = ({
   return (
     <>
       <div
-        className={`relative bg-background border-2 border-gray rounded-xl overflow-hidden shadow-lg flex flex-col shrink-0 transition-all duration-300 ease-in-out`}
+        className={`relative bg-background rounded-xs overflow-hidden shadow-lg flex flex-col shrink-0 transition-all duration-300 ease-in-out`}
         style={{
           width: "252px",
           height: isExpanded ? "auto" : "300px",
